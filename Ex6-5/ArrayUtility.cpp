@@ -1,0 +1,22 @@
+//
+//  ArrayUtility.cpp
+//  Ex6-5
+//
+//  Created by kimyewon on 2020/10/20.
+//
+
+#include <iostream>
+#include "ArrayUtility.hpp"
+using namespace std;
+
+void ArrayUtility::intToDouble(int source[], double dest[], int size){
+    for (int i=0; i <size; i++){
+        dest[i] =(double)source[i];
+    }
+}
+
+void ArrayUtility::doubleToInt(double source[], int dest[], int size) {
+    for (int i=0; i <size; i++){
+        dest[i] =(int)source[i];
+    }
+}
